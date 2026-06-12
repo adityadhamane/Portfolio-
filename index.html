@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Aditya Dhamane | Creative Developer & Designer Portfolio</title>
+  <meta name="description" content="Welcome to the portfolio of Aditya Dhamane, a developer crafting premium, high-performance web experiences using glassmorphism, modern design systems, and animations.">
+  <meta name="keywords" content="Aditya Dhamane, Web Developer, Creative Designer, Portfolio, Front-End Engineer, HTML, CSS, JavaScript, React">
+  <meta name="author" content="Aditya Dhamane">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aditya Dhamane | Creative Developer Portfolio">
+  <meta property="og:description" content="Discover modern web designs, interactive interfaces, and premium developer tools crafted with absolute visual excellence.">
+  
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Warning Modal Overlay -->
+  <div id="mobile-warning-popup" class="warning-modal-overlay">
+    <div class="warning-modal-content glass-panel">
+      <div class="warning-modal-icon">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+      </div>
+      <p class="warning-modal-text">▲ Viewing on Mobile is NOT recommended — please open this on a Desktop or Laptop for the full & intended experience! -Aditya Dhamane</p>
+      <button id="warning-ok-btn" class="btn-warning-ok">OK</button>
+    </div>
+  </div>
+
+  <!-- Cinematic Enter Experience Overlay -->
+  <div id="splash-overlay" class="splash-overlay">
+    <div class="splash-content">
+      <div class="splash-brand-intro">
+        <div class="splash-os-tag">System Ready</div>
+        <h2 class="splash-title">ADITYA<span>OS</span></h2>
+        <p class="splash-subtitle">An Interactive Operating System Portfolio</p>
+      </div>
+
+      <button id="enter-btn" class="btn-enter" aria-label="Enter Experience">
+        <i class="fa-solid fa-play"></i>
+        <span>Enter Experience</span>
+      </button>
+
+      <div class="splash-footer-info">
+        <p class="splash-audio-note">
+          <i class="fa-solid fa-headphones"></i> Best experienced with sound turned ON
+        </p>
+        <div class="splash-features-grid">
+          <span><i class="fa-solid fa-code"></i> MERN Stack</span>
+          <span>&bull;</span>
+          <span><i class="fa-solid fa-robot"></i> AI Integrated</span>
+          <span>&bull;</span>
+          <span><i class="fa-solid fa-desktop"></i> Desktop UI</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Glass Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo">
+      ADITYA <span>DHAMANE</span>
+    </a>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <video id="hero-video" class="hero-video-bg" autoplay loop muted playsinline>
+      <source src="intro%20video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-container">
+      <div class="hero-left">
+        <h1>Where <span class="green-text">MERN</span> expertise <br>meets <span class="green-text">AI</span> innovation. 🚀🤖</h1>
+        
+        <div class="hero-titles-container">
+          <span class="title-prefix">I am a </span><span id="typed-title" class="typed-title"></span><span class="typing-cursor">|</span>
+        </div>
+
+        <div class="hero-subtitle-container">
+          <p>As a Computer Engineer I am created AdityaOS-Operating System type Portfolio For an optimal experience, use a desktop computer, or if using mobile, select the desktop version for better user interface.</p>
+          <p class="hero-quote">"Code. Debug. Learn. Repeat. Success in programming belongs to those who refuse to quit."</p>
+        </div>
+        
+        <div class="hero-cta">
+          <a href="https://adityadhamane.github.io/Portfolio-AdityaOS/" class="btn-green-started">
+            <div class="btn-text-content">
+              <span class="btn-title">View My Work</span>
+              <span class="btn-subtitle">AdityaOS</span>
+            </div>
+            <div class="btn-arrow-box"><i class="fa-solid fa-chevron-right"></i></div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Play/Pause Control Button -->
+    <button id="playback-toggle-btn" class="playback-toggle-btn" aria-label="Pause Video">
+      <i class="fa-solid fa-pause"></i>
+    </button>
+  </section>
+
+  <!-- Simplified Footer -->
+  <footer class="mini-footer">
+    <p>&copy; 2026 Aditya Dhamane. All rights reserved. &bull; Designed with passion &bull; Backed by code</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
